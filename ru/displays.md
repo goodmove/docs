@@ -185,6 +185,12 @@ $table->getActions()
 Указание заголовка для таблиц
 
     SleepingOwl\Admin\Display\Display::setTitle(string $title): return self
+
+
+#### setNewEntryButtonText
+Указание заголовка кнопки добавления записи
+
+    SleepingOwl\Admin\Display\DisplayTable::setNewEntryButtonText(string $newEntryButtonText): return self
     
 #### setView
 Изменения шаблона вывода данных
